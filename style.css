@@ -1,1 +1,162 @@
 /* style.css */
+html {
+    box-sizing: border-box;
+  }
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    }
+  
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction:column;
+    background-color:#1F2937;
+}
+
+ul {
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration:none;
+    color:#E5E7EB;
+    font-size:18px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    height: 72px;
+}
+
+.links {
+    display: flex;
+    gap: 24px;
+}
+
+.body {
+    display: flex;
+    background-color: green;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.content {
+    flex: 1;
+    display: flex;
+}
+
+.content.one, .content.two, content.three, content.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.content.one {
+    background-color: #1F2937;
+    gap: 48px;
+    padding: 96px;
+}
+
+.left .image, .left .main, .left button {
+    margin-top: 8px;
+}
+
+.left .main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.left .text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left button {
+    background-color: #3882F6;
+    border-style:solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 6px 24px;
+    border-radius: 8px;
+    color: white;
+}
+
+.content.one img {
+    text-align: center;
+    background-color: silver;
+    color: white;
+    height: auto;
+    width: 400px;
+    align-self: center;
+}
+
+.content.two {
+    background-color: white;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 36px;
+}
+
+.content.two .title {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.content.two .main {
+    display: flex;
+    justify-content:center;
+    padding: 36px;
+    text-align: center;
+    gap: 36px;
+}
+
+.content.two .main div {
+    width: 150px;
+}
+
+.content.two img {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color:#3882F6;
+    border-width: 2px;
+}
+
+.content.three {
+    background-color: #E5E7EB;
+}
+
+.content.four {
+    background-color: white;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    display: flex;
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
